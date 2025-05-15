@@ -1,0 +1,16 @@
+.car-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.car-item h3 {
+  margin-top: 0;
+}
+
+.car-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
