@@ -25,5 +25,23 @@
     "price": 40000,
     "image": "/photos/f150.jpg",
     "description": "Powerful and versatile pickup truck."
+  },
+  {
+    "id": 4,
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "year": 2020,
+    "price": 20000,
+    "image": "/photos/malibu.jpg",
+    "description": "Comfortable and spacious sedan."
+  },
+  {
+    "id": 5,
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2022,
+    "price": 24000,
+    "image": "/photos/altima.jpg",
+    "description": "Stylish and efficient midsize sedan."
   }
 ]

@@ -6,7 +6,11 @@ const carsData = require('./data/cars.json');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + '/public//html/index.html');
+});
+
+app.get('/listings', (req, res) => {
+  res.sendFile(__dirname + '/public/html/listings.html');
 });
 
 app.get('/api/cars', (req, res) => {
