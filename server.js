@@ -13,6 +13,10 @@ app.get('/listings', (req, res) => {
   res.sendFile(__dirname + '/public/html/listings.html');
 });
 
+app.get('/details', (req, res) => {
+  res.sendFile(__dirname + '/public/html/details.html');
+});
+
 app.get('/api/cars', (req, res) => {
   res.json(carsData);
 });
