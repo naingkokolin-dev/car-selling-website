@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <p>Price: $${car.price}</p>
             <img src="${car.image}" alt="${car.make} ${car.model}" width="200">
             <p>${car.description}</p>
-            <a href="/details.html?id=${car.id}">View Details</a>
+            <a href="details?id=${car.id}">View Details</a>
+            <br>
           `;
           carListingsDiv.appendChild(carDiv);
         });
@@ -21,4 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(error => {
       console.error('Error fetching cars: ' + error);
     });
+  
+  const selectByMake = document.getElementById('select-make');
+  
+  
 });
